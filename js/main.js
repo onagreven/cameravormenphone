@@ -492,7 +492,7 @@ function init2() {
        addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
   
   // add a smaller purple rectangle
-  addRect(20, 350, 100, 65, 'rgba(150,150,250,0.7)');
+  addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
     addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
       addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
         addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
