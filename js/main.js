@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
       .getUserMedia({
         audio: false,
         video: true,
-      video.setAutoFocusResetDelay(0); video.startAutoFocus(video.getWidth()/2,video.getHeight()/2);
+    
       })
       .then(function (stream) {
         stream.getTracks().forEach(function (track) {
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
 function initCameraUI() {
   video = document.getElementById('video');
-  video.setAutoFocusResetDelay(0); video.startAutoFocus(video.getWidth()/2,video.getHeight()/2);
+ 
   
   takePhotoButton = document.getElementById('takePhotoButton');
   toggleFullScreenButton = document.getElementById('toggleFullScreenButton');
